@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Laura – Testy Automatyczne i QA</title>
+    <title>Laura Giza-Bąk IT-Consulting– Testy Automatyczne i QA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO -->
@@ -30,3 +30,238 @@
         header p {
             font-size: 18px;
             max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+
+        section {
+            background: #ffffff;
+            padding: 50px 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 35px;
+            font-size: 32px;
+        }
+
+        .services,
+        .benefits {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #f9f9f9;
+            padding: 28px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+
+        .card p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .experience {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 40px;
+            color: #444;
+        }
+
+        .experience strong {
+            color: #203a43;
+        }
+
+        .tech {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 30px;
+        }
+
+        .tech span {
+            background: #203a43;
+            color: white;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        .cta {
+            background: #203a43;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .cta a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 26px;
+            background: #2c5364;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        .cta a:hover {
+            background: #1e3c4a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            background: #111;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Laura Giza-Bąk IT-Consulting</h1>
+    <p>
+        Od <strong>8 lat</strong> pomagamy klientom budować skuteczne procesy QA oraz
+        automatyzację testów dla aplikacji webowych, mobilnych i API.
+        Dostarczamy stabilne, skalowalne i mierzalne rozwiązania testowe.
+    </p>
+</header>
+
+<section>
+    <div class="container">
+        <h2>Zakres usług</h2>
+
+        <p class="experience">
+            <strong>8 lat doświadczenia</strong> w budowaniu i rozwijaniu automatyzacji testów
+            dla klientów z różnych branż – od startupów po duże systemy enterprise.
+        </p>
+
+        <div class="services">
+            <div class="card">
+                <h3>Testy automatyczne aplikacji webowych</h3>
+                <p>
+                    Automatyzacja testów frontendowych aplikacji webowych
+                    z wykorzystaniem Selenium (Java) oraz Playwright.
+                    Tworzymy testy łatwe w utrzymaniu i odporne na zmiany.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Testy automatyczne aplikacji mobilnych</h3>
+                <p>
+                    Testy aplikacji mobilnych Android i iOS
+                    z wykorzystaniem Appium, zintegrowane z pipeline’ami CI/CD.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Testy API i backendowe</h3>
+                <p>
+                    Automatyzacja testów API oraz backendu przy użyciu REST Assured.
+                    Walidacja kontraktów, danych i logiki biznesowej.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Continuous Integration (CI/CD)</h3>
+                <p>
+                    Budowa i optymalizacja pipeline’ów CI/CD w Jenkins,
+                    automatyczne uruchamianie testów przy każdym wdrożeniu.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Raportowanie wyników testów</h3>
+                <p>
+                    Czytelne raporty z testów webowych, mobilnych i API,
+                    wspierające szybkie decyzje techniczne i biznesowe.
+                </p>
+            </div>
+        </div>
+
+        <div class="tech">
+            <span>Selenium</span>
+            <span>Playwright</span>
+            <span>Appium</span>
+            <span>REST Assured</span>
+            <span>Jenkins</span>
+            <span>CI / CD</span>
+            <span>Testy Webowe</span>
+            <span>Testy Mobilne</span>
+            <span>Testy API</span>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Dlaczego automatyzacja się opłaca</h2>
+
+        <div class="benefits">
+            <div class="card">
+                <h3>Szybsze wdrożenia</h3>
+                <p>
+                    Automatyczne testy skracają czas regresji i pozwalają
+                    wdrażać nowe funkcjonalności szybciej i bezpieczniej.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Niższe koszty</h3>
+                <p>
+                    Wczesne wykrywanie błędów znacząco obniża koszt ich naprawy
+                    w późniejszych etapach rozwoju produktu.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Stabilna jakość</h3>
+                <p>
+                    Testy automatyczne eliminują błędy ludzkie i zapewniają
+                    powtarzalność wyników przy każdym uruchomieniu.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Skalowalność</h3>
+                <p>
+                    Dobrze zaprojektowana automatyzacja rośnie razem z projektem
+                    i wspiera długoterminowy rozwój systemu.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h2>Skontaktuj się</h2>
+    <p>
+        Chcesz wdrożyć automatyzację testów lub usprawnić istniejące QA?
+        Porozmawiajmy o Twoim projekcie.
+    </p>
+    <a href="mailto:kontakt@laura.pl">lauragiza17@gmail.com</a>
+</section>
+
+<footer>
+    © 2026 LLaura Giza-Bąk IT-Consulting – Automatyzacja Testów i QA
+</footer>
+
+</body>
+</html>
